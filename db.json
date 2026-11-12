@@ -1,0 +1,59 @@
+{
+  "cameras": [
+    {
+      "id": "CAM-R01",
+      "name": "Главный холл",
+      "location": "Корпус А / 1 этаж",
+      "status": "online",
+      "previewUrl": "",
+      "updatedAt": "2026-11-12T12:00:00.000Z"
+    },
+    {
+      "id": "CAM-R02",
+      "name": "Читальный зал",
+      "location": "Библиотека",
+      "status": "online",
+      "previewUrl": "",
+      "updatedAt": "2026-11-12T12:00:00.000Z"
+    },
+    {
+      "id": "CAM-R03",
+      "name": "Задний вход",
+      "location": "Корпус Б",
+      "status": "offline",
+      "previewUrl": "",
+      "updatedAt": "2026-11-12T12:00:00.000Z"
+    },
+    {
+      "id": "CAM-R04",
+      "name": "Лестничная клетка",
+      "location": "Корпус А / 2 этаж",
+      "status": "online",
+      "previewUrl": "",
+      "updatedAt": "2026-11-12T12:00:00.000Z"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "door_open",
+      "cameraId": "CAM-R01",
+      "severity": "high",
+      "message": "Датчик на северном входе",
+      "createdAt": "2026-11-12T12:00:00.000Z"
+    }
+  ],
+  "incidents": [
+    {
+      "id": 1,
+      "title": "Оповещение Задний вход",
+      "cameraId": "CAM-R03",
+      "severity": "high",
+      "description": "Демонстрационное обращение дежурного персонала",
+      "status": "new",
+      "assignee": null,
+      "createdAt": "2026-11-12T12:00:00.000Z",
+      "updatedAt": "2026-11-12T12:00:00.000Z"
+    }
+  ]
+}

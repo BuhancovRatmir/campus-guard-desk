@@ -1,0 +1,14 @@
+{
+  "name": "guard-station-ratmir",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Guard Station | CCTV + IoT, учебный проект ТРПП",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test api.test.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
